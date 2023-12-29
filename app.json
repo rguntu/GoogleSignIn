@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "GoogleSignIn",
+    "slug": "GoogleSignIn",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.GoogleSignIn"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.GoogleSignIn"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "myGoogleApp",
+    "extra": {
+      "eas": {
+        "projectId": "6a3ac5d4-8c86-4171-beb6-e075a2de2faf"
+      }
+    }
+  }
+}
